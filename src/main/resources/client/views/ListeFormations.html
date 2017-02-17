@@ -1,0 +1,29 @@
+
+<div >
+
+	
+	
+</div><br>
+
+<table class="table table-striped">
+<thead>
+	<tr>
+	<td>Code Formation</td>
+	<td>Nom Formation</td>
+	<td> </td>
+	<td> </td>
+	<td> </td>
+	</tr>
+</thead>
+<tbody>
+	<tr ng-repeat="formation in formations">
+	<td>{{formation.codeFormation}}</td>
+	<td>{{formation.nomFormation}}</td>
+	<td><a href="#/AfficherFormation/{{formation.codeFormation}}"><span class="glyphicon glyphicon-zoom-in"></span></a></td>
+	<td><a href="#/modifierFormation/{{formation.codeFormation}}"><span class="glyphicon glyphicon-edit"></span></a></td>
+	<td><a href="#/SupprimerFormation/{{formation.codeFormation}}"><span class="glyphicon glyphicon-trash"></span></a></td>
+</tbody>
+
+</table>
+
+<a href="#AjouterFormation"><span class="glyphicon glyphicon-plus-sign"></span>Ajouter Une nouvelle formation</a>

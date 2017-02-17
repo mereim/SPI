@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.3.201612191259-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>java:fr.univbrest.dosi.Application</config>
+	</configs>
+	<autoconfigs>
+		<config>java:fr.univbrest.dosi.business.FormationBusinessJPA</config>
+		<config>java:fr.univbrest.dosi.config.SwaggerDocConfig</config>
+		<config>java:fr.univbrest.dosi.filter.SimpleCORSFilter</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
